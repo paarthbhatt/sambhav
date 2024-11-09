@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery Data Preview</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Include Chart.js in the head section -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="data-page">
+    <header>
+        <div class="battery-icon"></div>
+        <h1>Battery Data Overview</h1>
+    </header>
+    <main>
+        <section id="data-container">
+            <h2>Latest Battery Data</h2>
+            <div id="battery-data">
+                <!-- Real-time battery data will be loaded here -->
+            </div>
+            <canvas id="voltageChart"></canvas> <!-- Chart element -->
+        </section>
+    </main>
+
+    <!-- Link to script.js for fetching data and rendering the chart -->
+    <script src="script.js"></script>
+</body>
+</html>
