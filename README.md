@@ -32,9 +32,9 @@ This repository hosts the source code for a Battery Data Preview Website, develo
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript (with charting libraries like Chart.js or D3.js).
-- **Backend**: Node.js, Express.js.
-- **Database**: MongoDB (for storing historical data).
-- **Deployment**: Docker, Netlify/AWS.
+- **Backend**: On Vercel
+- **Authentication**: Firebase
+- **Deployment**: Vercel
 
 ## Installation
 
